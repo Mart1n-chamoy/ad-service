@@ -8,10 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: src/adservice/ad-service
-
     steps:
     - name: Checkout
       uses: actions/checkout@v4
