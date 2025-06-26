@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: adservice
-          image: mart1n-chamoy/adservice:latest
+          image: martin555/adservice:latest
           ports:
             - containerPort: 8080
